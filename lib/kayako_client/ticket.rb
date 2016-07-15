@@ -109,6 +109,7 @@ module KayakoClient
         property :template_group_id,    :integer, :set => :templategroup
         property :template_group_name,  :string,  :set => :templategroup
         property :ignore_autoresponder, :boolean, :new => true
+        property :email_queue_id,       :integer, :new => true
 
         property :work_flow,          [ :object ], :class => TicketWorkflow
         property :watcher,            [ :object ], :class => TicketWatcher

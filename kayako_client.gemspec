@@ -12,8 +12,6 @@
 #
 #######################################################################
 
-require 'rake'
-
 Gem::Specification.new do |s|
     s.name        = 'KayakoClient'
     s.version     = '1.2.1'
